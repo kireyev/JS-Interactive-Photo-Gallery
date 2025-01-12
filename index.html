@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="image">Hover over an image below to display here.</div>
+    <div>
+        <img class="preview" src="image1.jpg" alt="Image 1 description" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="image2.jpg" alt="Image 2 description" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="image3.jpg" alt="Image 3 description" onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
